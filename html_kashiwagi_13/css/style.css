@@ -1,0 +1,284 @@
+/* ここから下に記載していく */
+
+.header{ 
+    display: flex;
+    width: 1200px;
+    height: 121px;
+    margin: 0px auto;
+    background-image: url("../img/header_logo.png");
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+    border:solid #cacaca ;
+    border-width:0px 1px 0px;}
+.header1{
+    font-size:21px;
+    margin-top:50px ;
+    /*↓要修正 */
+    /*↓要修正 */
+    margin-left:550px;
+    /* text-align: center center; */
+}
+.header2{
+    font-size:21px;
+    margin-left: 50px;
+    margin-top:50px ;
+}
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓チーズアカデミーをつくろう */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓チーズアカデミーをつくろう */
+.title{
+    width: 1200px;
+    height: 500px;
+    background-image: url("../img/mainbg.png") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px auto;
+}
+.title1{
+    color: white;
+    font-size: 40px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 200px;
+
+}
+.title2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑チーズアカデミーをつくろう */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓章のタイトル */
+.title_eng{
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: bold;    
+    text-align: center;
+    margin-top: 60px;
+}
+.title_eng2{
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.title_jp{
+    color: #222222;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑章のタイトル */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓about */
+
+.about_pic{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 80px auto; 
+}
+/* .about_pic{
+    /* background-image: url(../img/about_05.png); */
+    /* text-align: center;
+    width: 1200px;
+    margin: 80px auto; 
+} */
+
+.text1{
+    columns: #222222;;
+    font-size: 16px;
+    text-align: center;   
+    margin-top: 40px;
+}
+.text2{
+    columns: #222222;;
+    font-size: 16px;
+    text-align: center;   
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑about */
+/* ニュース↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+.news{
+    display: flex;
+    justify-content: center;
+    /* font-size:; */
+}
+.news1{
+    width: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size:12px;
+}
+/* .news_pic{
+} */
+.news_text{
+    padding-top: 24px;
+}
+.news_date{
+    /* font-size:12px; */
+    padding-top: 30px;
+}
+/* ニュース↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+/* ニュース↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+.course1{
+    display: flex;
+    justify-content: center;
+}
+
+.course_1_1{
+    width: 600px;
+    background-color:#fafafa;
+}
+.course1_title{
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+.course1_text{
+    color: #222222;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 480px;
+}
+/* .course2_pic{
+    width: 600px;
+} */
+.course2_title{
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-right: 50px; */
+    margin-top: 120px;
+    margin-left: 214px;
+
+}
+.course2_text{
+    color: #222222;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 214px;
+    /* padding-right: 50px; */
+    /* width: 480px; */
+}
+
+/* コース↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+/* アクセス↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+.access{
+    width: 1200px;
+    /* height: 1000px; */
+    text-align: center;
+    margin: 0px auto;
+    background-color:#fafafa;
+    justify-content: center;
+}
+.access1{
+    width: 1200px;
+    height: 60px;
+    text-align: center;
+    margin: 0px auto;
+    background-color:#fafafa;
+    justify-content: center;
+}
+.title_eng3{
+    /* width: 1200px; */
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: top;
+    /* line-height: 60px; */
+    /* margin-top: 60px; */
+}
+.table1{
+    margin: 60px auto;
+    width: 600px;
+    line-height: 60px;
+    text-align: left;
+}
+.table1 td{ 
+    padding-left: 100px;    
+}
+
+
+.table2{
+    margin: 70px auto;
+    line-height: 30px;
+    text-align: left;    
+}
+
+.table2 th{ 
+    padding:10px,64px,10px,16px;    
+}
+.table2 td{ 
+    padding: 10px;    
+}
+
+
+table.table2,table.table2 th,table.table2 tr{    
+    border:solid #cacaca ;
+    border-width:1px 0px 1px 0px;
+}
+
+    table.table2 td{    
+        border:solid #cacaca ;
+    border-width:0px 0px 0px 1px;
+}
+
+/* マップ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+.map{
+    text-align: center;
+}
+/* マップ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+/* フォーム↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+.form1{
+    text-align: center;
+    border:solid #cacaca ;
+    border-width:1px 0px 1px;
+    margin-top: 70px;
+}
+.send{
+    width: 300px;
+    height: 60px;
+    margin: 60px auto;
+    background-color: #ffd61a;
+    text-align: center;
+    line-height: 60px;
+    color: #fafafa;
+    font-size: 18px;
+
+} 
+.send:hover {
+    opacity: 0.6;
+  }
+
+
+/* フォーム↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+/* コピーライト↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+.copyright{
+        width: 1200px;
+        height: 70px;
+        margin: 100px auto;
+        background-color: #707070;
+        text-align: center;
+    }
+    
+    .copy_text{
+        color: #fafafa;
+        font-size: 10px;
+        /* margin-top: 30px; */
+        /* margin-bottom: 30px; */
+        line-height: 70px;
+    }
+/* コピーライト↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
